@@ -29,6 +29,6 @@ public class Main{
 	}
 		  
 	static int nextInt () throws IOException {
-	    return Integer.parseInt(next());
+		return Integer.parseInt(next());
 	}
 }
