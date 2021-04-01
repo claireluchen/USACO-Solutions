@@ -1,6 +1,5 @@
 import java.util.*;
 public class Main{
-
   public static void main(String[] args){
     Scanner in = new Scanner(System.in);
     int N = in.nextInt();
@@ -22,5 +21,4 @@ public class Main{
     }
     System.out.println((int) maxDistance);
   }
-
 }
