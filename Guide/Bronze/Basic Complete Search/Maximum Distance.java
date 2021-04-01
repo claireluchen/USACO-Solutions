@@ -10,15 +10,16 @@ public class Main{
     for (int i = 0; i < y.length; i++){
       y[i] = in.nextInt();
     }
-    double maxDistance = 0;
+    int maxDistance = 0;
     for (int i = 0; i < x.length; i++){
       for (int j = i + 1; j < x.length; j++){
         int x1 = x[i], y1 = y[i];
         int x2 = x[j], y2 = y[j];
-        double distance = Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2);
+        int diffX = x2 - x1, diffY = y2 - y1;
+        int distance = diffX * diffX + diffY * diffY;
         maxDistance = Math.max(maxDistance, distance);
       }
     }
-    System.out.println((int) maxDistance);
+    System.out.println(maxDistance);
   }
 }
