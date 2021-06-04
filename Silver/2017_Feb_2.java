@@ -15,7 +15,7 @@ public class Main {
 		return Integer.parseInt(next());
 	}
 
-	public static void main(String[] args) throws IOException{
+  public static void main(String[] args) throws IOException{
     int n = readInt(), k = readInt(), b = readInt();
     boolean[] brokenLights = new boolean[n + 1];
     for (int i = 0; i < b; i++){
