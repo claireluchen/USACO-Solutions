@@ -15,7 +15,7 @@ public class Main {
     return next().charAt(0);
   }
 
-	public static void main(String[] args) throws IOException{
+  public static void main(String[] args) throws IOException{
     int n = readInt();
     int[] psaP = new int[n + 1], psaH = new int[n + 1], psaS = new int[n + 1];
     for (int i = 1; i <= n; i++){
