@@ -15,7 +15,7 @@ public class Main {
 		return Integer.parseInt(next());
 	}
 
-	public static void main(String[] args) throws IOException{
+  public static void main(String[] args) throws IOException{
     int n = readInt(), q = readInt();
     int[] psa1 = new int[n + 1], psa2 = new int[n + 1], psa3 = new int[n + 1];
     for (int i = 1; i <= n; i++){
