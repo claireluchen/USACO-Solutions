@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 public class Test {
-  static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+  	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static PrintWriter pr = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 	static StringTokenizer st;
 	static String next () throws IOException {
@@ -15,7 +15,7 @@ public class Test {
 		return Integer.parseInt(next());
 	}
 
-  public static void main(String[] args) throws IOException{
+  	public static void main(String[] args) throws IOException{
 	    int n = readInt();
 	    HashSet<Integer> set = new HashSet<>();
 	    for (int i = 0; i < n; i++) set.add(readInt());
@@ -41,5 +41,5 @@ public class Test {
 	    	}
 	    }
 	    System.out.println(points);
-	}
+  	}
 }
